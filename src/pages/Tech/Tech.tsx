@@ -23,7 +23,7 @@ function Tech() {
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='React'/>
                     </li>
                     <li> 
-                        <p className={ styles.name }>HTML5</p>
+                        <p className={ styles.name }>HTML 5</p>
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt='HTML5' />
                     </li>
                     <li>
