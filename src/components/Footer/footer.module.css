@@ -1,0 +1,48 @@
+.listFooter {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  gap: 30px;
+}
+
+.listFooter li img {
+  width: 23px;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  padding-right: 10px;
+}
+
+.listFooter li {
+  color: #A7A7A7;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.listFooter li p {
+  text-align: center;
+  align-items: center;
+}
+
+.line {
+  width: 100%;
+  stroke-width: 2px;
+  stroke:  #42446E;
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 768px) {
+    .listFooter {
+        justify-content: center;
+        padding: 10px;
+    }
+    .links {
+        gap: 20px;
+    }
+}

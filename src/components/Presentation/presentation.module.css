@@ -1,0 +1,25 @@
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.presentationText {
+  max-width: 500px;
+}
+
+.container img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 27px;
+    padding: 25px;
+  }
+}
+  
