@@ -8,6 +8,11 @@
   box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20); 
   max-width: 280px;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card .imageProject {

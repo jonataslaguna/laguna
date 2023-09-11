@@ -4,12 +4,13 @@ import styles from "./projects.module.css"
 function Projects() {
   return (
     <div className={ styles.projectsContainer }>
+  
       <div className={ styles.projectsHeader }>
         <h2>Projects</h2>
         <h3>Here are some of my projects</h3>
       </div>
 
-       
+      <div className={ styles.cards }>
       <Card 
         img="https://via.placeholder.com/150"
         projectName="Recipes App"
@@ -20,9 +21,9 @@ function Projects() {
        />
 
 
-       
 
-      
+
+      </div>
     </div>
   );
 }
