@@ -3,7 +3,7 @@ import styles from './footer.module.css';
 function Footer() {
   return (
     <footer className={ styles.container }>
-     <img className={ styles.line } src="/svg/line.svg" alt="line" />
+     {/* <img className={ styles.line } src="/svg/line.svg" alt="line" /> */}
      <ul className={ styles.listFooter }>
       <li><p>jonataslaguna.js@gmail.com</p></li>
       <li className={ styles.links }>

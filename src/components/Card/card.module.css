@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #363636;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20); 
+  max-width: 280px;
+  cursor: pointer;
+}
+
+.card .imageProject {
+  border-radius: 10px 10px 0px 0px;
+  width: 280px;
+  height: 200px;
+
+}
+
+.card h2 {
+  color:  #CCC;
+  text-align: start;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 5px;
+}
+
+.card p {
+  color: #CCC;
+  font-weight: 300px;
+  line-height: 26px;
+  font-size: 13px;
+}
+
+.infos {
+    padding: 5px;
+}
+
+.infos h2 {
+    margin-bottom: 10px;
+}
+
+.cardLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+  padding: 10px;
+  gap: 50px;
+}
+
+.cardLinks a {
+  font-size: 13px;
+  padding: 5px;
+}
+
+.cardLinks a:hover {
+  text-decoration: underline;
+}
