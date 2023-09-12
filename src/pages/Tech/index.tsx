@@ -47,7 +47,7 @@ function Tech() {
                     </li>
                     <li>
                        <p className={ styles.name }>GitHub</p>
-                        <img src="/gitHubLogo.png" alt="GitHub"/>
+                        <img src="/images/gitHubLogo.png" alt="GitHub"/>
                     </li>
                     <li>
                         <p className={ styles.name }>React Testing Library</p>
