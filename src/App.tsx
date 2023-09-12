@@ -1,12 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css'
-import Home from './pages/Home/Home';
-import About from './pages/About/About';
-import Contact from './pages/Contact/Contact';
-import Tech from './pages/Tech/Tech';
-import Projects from './pages/Projects/Projects';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Tech from './pages/Tech';
+import Projects from './pages/Projects';
+import Header from './components/Header';
+import NotFound from './pages/NotFound';
+
 
 function App() {
   return (
@@ -18,9 +19,8 @@ function App() {
       <Route path="/contact" element={ <Contact /> } />
       <Route path="/techStack" element={ <Tech /> } />
       <Route path="/projects" element={ <Projects /> } />
-      <Route path="*" element={<div>Not Found</div>} />
+      <Route path="*" element={<NotFound />} />
      </Routes>
-     <Footer />
    </>
   )
 }
