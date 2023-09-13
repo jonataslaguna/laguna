@@ -30,19 +30,23 @@
   align-items: center;
 }
 
-.line {
-  width: 100%;
-  stroke-width: 2px;
-  stroke:  #42446E;
-  opacity: 0.3;
+.lineFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
     .listFooter {
         justify-content: center;
         padding: 10px;
+        gap: 90px;
     }
     .links {
         gap: 20px;
+    }
+    .lineFooter {
+        display: none;
     }
 }
