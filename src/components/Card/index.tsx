@@ -11,7 +11,7 @@ function Card ({img, projectName, description, technologies, livePreviewLink, vi
             <div className={ styles.infos }>
                 <h2>{ projectName }</h2>
                 <p>{ description }</p>
-                <p><strong>Technologies: </strong>{ technologies }</p>
+                <p><strong>Main technologies: </strong>{ technologies }</p>
             </div>
             
             <div className={ styles.cardLinks }>
