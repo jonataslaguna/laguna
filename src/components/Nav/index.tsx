@@ -12,7 +12,7 @@ function Nav () {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/techStack">Tech Slack</Link>
+          <Link to="/techStack">Skills</Link>
         </li>
         <li>
           <Link to="/projects">Projects</Link>

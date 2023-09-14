@@ -5,7 +5,7 @@ function Tech() {
     <section className={ styles.container }>
         <div>
             <h2>My Tech Stack</h2>
-            <h3>Technologies I've been working with recently</h3>
+            <h3>Tecnologias que tenho conhecimento</h3>
         </div>
         <div>
             <ul className={ styles.listTech }>
@@ -50,7 +50,7 @@ function Tech() {
                         <img src="/images/gitHubLogo.png" alt="GitHub"/>
                     </li>
                     <li>
-                        <p className={ styles.name }>React Testing Library</p>
+                        <p className={ styles.name }>Testing Library</p>
                         <img src="/svg/testing-library.svg" alt="React Testing Library"/>
                     </li>
                </div>

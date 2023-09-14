@@ -7,7 +7,7 @@ function Projects() {
   
       <div className={ styles.projectsHeader }>
         <h2>Projects</h2>
-        <h3>Here are some of my projects</h3>
+        <h3>Aqui estão alguns dos meus projetos</h3>
       </div>
 
       <div className={ styles.cards }>

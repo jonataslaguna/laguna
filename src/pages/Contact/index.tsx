@@ -5,7 +5,7 @@ function ContactPage() {
   return (
     <>
       <div className={ styles.container }>
-          <h1>For any questions, send me an email:</h1>
+          <h1>Para qualquer dúvida, envie-me um e-mail:</h1>
           <h2>jonataslaguna.js@gmail.com</h2>
       </div>
       <Footer />
