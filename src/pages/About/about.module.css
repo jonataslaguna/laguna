@@ -1,21 +1,21 @@
 .container {
-  align-items: self-start;
+  align-items: center;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 25px;
+  margin-bottom: 150px;
   padding-top: 100px;
   padding-bottom: 50px;
-  gap: 50px;
-  height: 80vh;
+  gap: 100px;
 }
 
-.container h1 {
+.container h1, h2, h3 {
   text-align: start;
   padding: 5px 40px 10px 40px;
 }
 
 .container img {
-  max-width: 250px;
+  width: 250px;
 }
 
 .container p {
@@ -28,13 +28,24 @@
   font-size: 18px;
 }
 
+.about {
+  align-items: self-start;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutEducation {
+  align-items: self-start;
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 768px) {
    .container {
     flex-direction: column;
-    margin-bottom: 150px;
-    margin-top: 100px;
+    margin-bottom: 50px;
    }
-
    .container img {
     display: none;
    }
