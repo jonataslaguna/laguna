@@ -36,5 +36,10 @@
     gap: 27px;
     padding: 25px;
   }
+
+  .presentationText{
+    max-width: 300px;
+    font-size: 18px
+  }
 }
   
