@@ -30,7 +30,7 @@ function Tech() {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt='HTML5' />
                         </li>
                         <li>
-                            <p className={ styles.name }>Css 3</p>
+                            <p className={ styles.name }>CSS 3</p>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt='CSS3'/>
                         </li>
                     </div>

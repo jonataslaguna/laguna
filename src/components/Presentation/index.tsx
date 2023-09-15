@@ -7,17 +7,18 @@ function Presentation() {
       <div className={ styles.content }>
         <h1>Jonatas Laguna</h1>
         <h3>Front-end Developer</h3>
-        <p>Olá, seja bem vindo ao meu portfólio pessoal, aqui você pode encontrar alguns dos meus projetos e entrar em contato comigo.
-        </p>
+        <p>Olá, seja bem vindo ao meu portfólio pessoal, aqui você pode encontrar alguns dos meus projetos e entrar em contato comigo.</p>
         <div className={ styles.btnBox }>
           <Link to='/about'>About</Link>
           <Link to='/projects'>Projets</Link>
         </div>
-        {/* <img src="/images/profileIcon.png" alt="image exemple" /> */}
         <div className={ styles.links }>
           <a href="https://github.com/jonataslaguna" target="_blank"><i className='bx bxl-github'></i></a>
           <a href="https://www.linkedin.com/in/jonataslaguna/" target="_blank"><i className='bx bxl-linkedin'></i></a>
         </div>
+      </div>
+      <div className={ styles.myImageDiv }>
+       <img src="/images/profileIcon.png" alt="image exemple" /> 
       </div>
     </section>
   );
