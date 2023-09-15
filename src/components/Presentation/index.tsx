@@ -15,8 +15,8 @@ function Presentation() {
         </div>
         {/* <img src="/images/profileIcon.png" alt="image exemple" /> */}
         <div className={ styles.links }>
-          <a href="#"><i className='bx bxl-github'></i></a>
-          <a href="#"><i className='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/jonataslaguna" target="_blank"><i className='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/jonataslaguna/" target="_blank"><i className='bx bxl-linkedin'></i></a>
         </div>
       </div>
     </section>

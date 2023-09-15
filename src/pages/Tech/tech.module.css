@@ -3,9 +3,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 50px;
+  padding-top: 50px;
 }
-
 
 .listTech {
   display: flex;
@@ -16,8 +15,7 @@
   margin: 0 auto;
   max-width: 1200px;
   padding: 20px;
-  min-width: 300px;
-  
+  min-width: 300px; 
 }
 
 .listTech img {
@@ -71,7 +69,7 @@
 }
 
 .footer {
-  margin-top: 337px;
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -89,6 +87,7 @@
    }
 
    .footer {
+    display: block;
     margin-top: 150px;
    }
 }

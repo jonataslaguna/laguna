@@ -7,7 +7,7 @@ function Tech() {
     <>
       <section className={ styles.container }>
             <div>
-                <h2>My Tech Stack</h2>
+                <h1>My Tech Stack</h1>
                 <h3>Tecnologias que tenho conhecimento</h3>
             </div>
             <div>
@@ -59,10 +59,10 @@ function Tech() {
                 </div>
                 </ul>
             </div>
+            <div className={ styles.footer }>
+              <Footer />
+            </div>
       </section>
-        <div className={ styles.footer }>
-          <Footer />
-        </div>
     </>
     )
 }

@@ -1,12 +1,13 @@
 .projectsContainer {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  justify-content: center;
+  padding-top: 50px;
 }
 
 .cards {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -16,6 +17,14 @@
 }
 
 .footer {
-  margin-top: 262px;
+  display: none;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: block;
+    margin-top: 50px;
+  }
+}
+
 

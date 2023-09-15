@@ -18,9 +18,9 @@ function About () {
             <p>
               Mais de 1.500 horas de aulas com foco em: Introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
             </p>
-                    </div>
           </div>
-        <img src="images/profileIcon.png" alt="" />
+          </div>
+       {/*  <img src="images/profileIcon.png" alt="" /> */}
       </div>
       <Footer />
     </>

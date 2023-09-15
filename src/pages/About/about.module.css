@@ -1,12 +1,9 @@
 .container {
   align-items: center;
   display: flex;
-  justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 150px;
+  justify-content: space-around;
   padding-top: 100px;
-  padding-bottom: 50px;
-  gap: 100px;
+  padding-bottom: 200px;
 }
 
 .container h1, h2, h3 {
@@ -31,6 +28,7 @@
 .about {
   align-items: self-start;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 50px;
 }
@@ -39,6 +37,7 @@
   align-items: self-start;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {

@@ -8,7 +8,7 @@ function Projects() {
       <div className={ styles.projectsContainer }>
     
         <div className={ styles.projectsHeader }>
-          <h2>Projects</h2>
+          <h1>Projects</h1>
           <h3>Aqui estão alguns dos meus projetos</h3>
         </div>
 
@@ -22,10 +22,10 @@ function Projects() {
           viewCodeLInk="https://github.com/jonataslaguna/recipes-app"
         />
         </div>
-      </div>
-         <div className={ styles.footer }>
-           <Footer />
+        <div className={ styles.footer }>
+          <Footer />
         </div>
+      </div>
     </>
   );
 }

@@ -19,3 +19,10 @@
   width: 25px;
   height: 25px;
 }
+
+@media screen and (max-width: 768px) {
+  .gitHubAndLinkedinLinks a img {
+    display: none;
+  }
+}
+  
