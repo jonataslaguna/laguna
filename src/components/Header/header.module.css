@@ -1,0 +1,29 @@
+.header {
+  top:0;
+  left:0;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  background: transparent;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 20px;
+  color: #edededd8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 20px 5%;
+  }
+  .logo {
+    display: none;
+  }
+}
+  
+

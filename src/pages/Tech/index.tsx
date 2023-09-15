@@ -2,7 +2,7 @@ import Footer from '../../components/Footer';
 import styles from './tech.module.css';
 
 function Tech() {
-    const route = window.location.pathname;
+
     return (
     <>
       <section className={ styles.container }>
@@ -60,11 +60,9 @@ function Tech() {
                 </ul>
             </div>
       </section>
-      { route === "/techStack" && 
         <div className={ styles.footer }>
           <Footer />
         </div>
-       }
     </>
     )
 }

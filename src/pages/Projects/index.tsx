@@ -3,7 +3,6 @@ import Footer from "../../components/Footer";
 import styles from "./projects.module.css"
 
 function Projects() {
-  const route = window.location.pathname;
   return (
     <>
       <div className={ styles.projectsContainer }>
@@ -24,11 +23,9 @@ function Projects() {
         />
         </div>
       </div>
-        { route === "/projects" && 
          <div className={ styles.footer }>
            <Footer />
-         </div>
-        }
+        </div>
     </>
   );
 }

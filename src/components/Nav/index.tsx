@@ -3,7 +3,7 @@ import styles from './nav.module.css'
 
 function Nav () {
   return (
-    <nav className={ styles.container }>
+    <nav className={ styles.navContainer }>
       <ul className={ styles.linksNav }>
         <li>
           <Link to="/">Home</Link>
@@ -20,9 +20,9 @@ function Nav () {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
-       <li>
-        <a href="https://github.com/jonataslaguna" target="_blank"><img src="svg/gitHub.svg" alt="GitHub Link" className={ styles.gitHubLink }/></a>
-        <a href="https://www.linkedin.com/in/jonataslaguna/" target="_blank"><img src="svg/linkedin.svg" alt="Linkedin Link" className={ styles.LinkedinLink }/></a>
+       <li className={ styles.gitHubAndLinkedinLinks }>
+        <a href="https://github.com/jonataslaguna" target="_blank"><img src="svg/gitHub.svg" alt="GitHub Link"/></a>
+        <a href="https://www.linkedin.com/in/jonataslaguna/" target="_blank"><img src="svg/linkedin.svg" alt="Linkedin Link"/></a>
        </li>
       </ul>
     </nav>
