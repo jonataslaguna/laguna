@@ -6,8 +6,14 @@
   padding-bottom: 200px;
 }
 
-.container h1, h2, h3 {
+.container h2, h3 {
   text-align: start;
+  padding: 5px 40px 10px 40px;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: 700;
   padding: 5px 40px 10px 40px;
 }
 
