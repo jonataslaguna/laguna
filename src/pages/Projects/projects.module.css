@@ -6,6 +6,12 @@
   padding-top: 50px;
 }
 
+.projectsContainer h1 {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 5px 40px 10px 40px;
+}
+
 .cards {
   align-items: center;
   display: flex;

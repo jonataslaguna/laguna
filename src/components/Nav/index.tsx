@@ -1,24 +1,31 @@
 import { Link } from "react-router-dom";
 import styles from './nav.module.css'
+import { useState } from "react";
 
 function Nav () {
+  const [activeLink, setActiveLink] = useState<string | null>('/');
+
+  const handleClick = (route: string) => {
+      setActiveLink(route);
+  }
+
   return (
     <nav className={ styles.navContainer }>
       <ul className={ styles.linksNav }>
-        <li>
-          <Link to="/">Home</Link>
+        <li onClick={() => handleClick('/')}>
+          <Link className={activeLink === "/" ? styles.active : ""} to="/">Home</Link>
         </li>
-        <li>
-          <Link to="/about">About</Link>
+        <li onClick={() => handleClick('/about')}>
+          <Link className={activeLink === "/about" ? styles.active : ""} to="/about">About</Link>
         </li>
-        <li>
-          <Link to="/techStack">Skills</Link>
+        <li onClick={() => handleClick('/techStack')}>
+          <Link className={activeLink === "/techStack" ? styles.active : ""} to="/techStack">Skills</Link>
         </li>
-        <li>
-          <Link to="/projects">Projects</Link>
+        <li onClick={() => handleClick('/projects')}>
+          <Link className={activeLink === "/projects" ? styles.active : ""}to="/projects">Projects</Link>
         </li>
-        <li>
-          <Link to="/contact">Contact</Link>
+        <li onClick={() => handleClick('/contact')}>
+          <Link className={activeLink === "/contact" ? styles.active : ""} to="/contact">Contact</Link>
         </li>
        <li className={ styles.gitHubAndLinkedinLinks }>
         <a href="https://github.com/jonataslaguna" target="_blank"><img src="svg/gitHub.svg" alt="GitHub Link"/></a>
