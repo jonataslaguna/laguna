@@ -19,6 +19,10 @@
   box-shadow: 0 30px 20px rgba(0, 0, 0, 0.5);
 }
 
+.myImageDivMobile {
+  display: none;
+}
+
 .content {
   max-width: 500px;
   display: flex;
@@ -152,35 +156,63 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    height: 100%;
-    padding: 50px;
+
+  .myImageDiv img {
+    display: none;
   }
 
+  .container {
+    flex-direction: column;
+    height: 87%;
+    width: 100%;
+    padding: 50px;
+    justify-content: center;
+  }
+  
+  .content {
+    align-items: center;
+  }
+  
   .content {
     justify-content: center;
   }
-
+  
   .content h1 {
     font-size: 40px;
+    line-height: 1;
   }
-
+  
   .content h3 {
-    font-size: 24px;
-    padding-bottom: 30px;
+    font-size: 20px;
+    padding-right: 0;
+    margin-bottom: 15px;
   }
-
+  
   .content p {
-    width: 100%;
+    width: 95%;
     font-size: 16px;
   }
 
-  .links {
-    margin-top: 100px;
+  .myImageDivMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .myImageDiv img {
+  .myImageDivMobile img{
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid #00abf0;
+    transition: .6s;
+  }
+
+  .myImageDivMobile:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .links {
     display: none;
   }
 
