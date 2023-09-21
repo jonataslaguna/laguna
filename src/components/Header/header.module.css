@@ -7,7 +7,6 @@
   background: transparent;
   justify-content: space-between;
   align-items: center;
-  z-index: 10;
 }
 
 .logo {
@@ -19,7 +18,7 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    padding: 20px 5%;
+    justify-content: center;
   }
   .logo {
     display: none;

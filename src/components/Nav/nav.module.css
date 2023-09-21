@@ -25,8 +25,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .gitHubAndLinkedinLinks a img {
+  .gitHubAndLinkedinLinks {
     display: none;
   }
-}
+
+  .linksNav {
+    font-size: 17px;
+    padding: 0, 10px, 0, 10px;
+  }
   
+}
