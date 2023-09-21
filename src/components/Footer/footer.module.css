@@ -50,3 +50,9 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .listFooter {
+        gap: 50px;
+    }
+}
