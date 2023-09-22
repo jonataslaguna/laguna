@@ -78,6 +78,27 @@
   display: none;
 }
 
+@media screen and (max-width: 850px) {
+  .listTech {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+  
+   }
+  
+    .techsPart1, .techsPart2 {
+      flex-direction: column;
+      gap: 30px;
+      margin: 0;
+    }
+
+    .techsPart1 img, .techsPart2 img {
+      width: 150px;
+    }
+
+  }
+
+
 @media (max-width: 768px) {
   .listTech {
     display: grid;

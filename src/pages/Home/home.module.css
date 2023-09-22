@@ -155,6 +155,17 @@
   width: 100%;
 }
 
+@media screen and (max-width: 850px) {
+  .container {
+    padding: 0 5%;
+  }
+
+  .content p {
+    width: 350px;
+  }
+  
+}
+
 @media screen and (max-width: 768px) {
 
   .myImageDiv img {
@@ -222,9 +233,8 @@
 @media screen and (max-width: 350px) {
 
   .container {
-    padding-top: 170px;
-    height: 80%;
-    
+    padding-top:170px;
+    height: 100%;
   }
 
   .content {
@@ -257,19 +267,14 @@
     padding-bottom: 10px;
   }
 
-  .myImageDivMobile:hover img {
-    transform: scale(1.1);
-    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.5);
-  }
-
   .btnBox {
     display: flex;
     justify-content: center;
     gap: 10px;
   }
-  
-
 }
+
+
 
   
 

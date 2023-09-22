@@ -31,10 +31,14 @@
 }
 
 .lineFooter {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
   padding-bottom: 20px;
+}
+
+.line {
+  width: 80%;
 }
 
 @media screen and (max-width: 768px) {
