@@ -1,17 +1,17 @@
 .header {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
   top:0;
   left:0;
   width: 100%;
-  padding: 20px 10%;
-  display: flex;
-  background: transparent;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .logo {
-  font-size: 20px;
   color: #edededd8;
+  font-size: 20px;
   text-decoration: none;
   font-weight: 600;
 }
