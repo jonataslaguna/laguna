@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className={ styles.header }>
-      <Link to="/" className={ styles.logo } >Laguna.</Link>
-       <Nav />
+    <header className={styles.header}>
+      <Link to="/" className={styles.logo} >Laguna.</Link>
+      <Nav />
     </header>
   );
 }
