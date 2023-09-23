@@ -174,11 +174,10 @@
 
   .container {
     flex-direction: column;
-    height: 80%;
+    height: 85%;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 0px;
+    padding: 100px;
+    margin-top: 20px;
     width: 100%;
   }
   
@@ -233,6 +232,16 @@
 
 @media screen and (max-width: 350px) {
 
+  .container {
+    padding-top:170px;
+    height: 100%;
+  }
+
+  .content {
+    padding: 80px;
+    
+  }
+
   .content h1 {
     font-size: 30px;
     line-height: 1;
@@ -251,6 +260,11 @@
 
   .myImageDivMobile img{
     max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid #00abf0;
+    transition: .6s;
+    padding-bottom: 10px;
   }
 
   .btnBox {
