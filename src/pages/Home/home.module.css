@@ -6,17 +6,45 @@
   justify-content: space-around;
 }
 
-.myImageDiv img {
-  max-width: 300px;
+.myImageDiv {
+  position: relative;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myImageDiv img {
+  width: 90%;
+  border-radius: 50%;
   border: 2px solid #00abf0;
   transition: .6s;
 }
 
-.myImageDiv:hover img {
-  transform: scale(1.1);
-  box-shadow: 0 30px 20px rgba(0, 0, 0, 0.5);
+.myImageDiv .circleSpin {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid #00abf0;
+  border-right: 2px solid #00abf0;
+  animation: circleSpin 6s linear infinite;
+}
+
+@keyframes circleSpin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 .myImageDivMobile {
@@ -272,9 +300,9 @@
     justify-content: center;
     gap: 10px;
   }
-}
+} */
 
- */
+
 
   
 

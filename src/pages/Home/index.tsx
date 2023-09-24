@@ -21,7 +21,8 @@ function Home() {
         </div>
       </div>
       <div className={ styles.myImageDiv }>
-       <img src="/images/profileIcon.png" alt="image exemple" /> 
+       <img src="/images/profileIcon.png" alt="image exemple" />
+       <span className={ styles.circleSpin }></span>
       </div>
     </section>
   );
