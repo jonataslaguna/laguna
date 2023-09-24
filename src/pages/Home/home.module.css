@@ -31,10 +31,10 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
-  border-left: 2px solid #00abf0;
-  border-right: 2px solid #00abf0;
+  border-top: .2rem solid transparent;
+  border-bottom: .2rem solid transparent;
+  border-left: .2rem solid #00abf0;
+  border-right: .2rem solid #00abf0;
   animation: circleSpin 6s linear infinite;
 }
 
@@ -183,20 +183,10 @@
   width: 100%;
 }
 
-/* @media screen and (max-width: 850px) {
-  .container {
-    padding: 0 5%;
-  }
 
-  .content p {
-    width: 350px;
-  }
-  
-}
+@media screen and (max-width: 850px) {
 
-@media screen and (max-width: 768px) {
-
-  .myImageDiv img {
+  .myImageDiv img, .circleSpin {
     display: none;
   }
 
@@ -204,8 +194,7 @@
     flex-direction: column;
     height: 85%;
     justify-content: center;
-    padding: 100px;
-    margin-top: 20px;
+    padding: 50px;
     width: 100%;
   }
   
@@ -229,27 +218,39 @@
   }
   
   .content p {
-    width: 95%;
+    width: 350px;
     font-size: 16px;
   }
 
   .myImageDivMobile {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .myImageDivMobile img{
-    max-width: 300px;
+  .myImageDivMobile img { 
+    width: 90%;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: 2px solid #00abf0;
-    transition: .6s;
   }
 
-  .myImageDivMobile:hover img {
-    transform: scale(1.1);
-    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.5);
+  .myImageDivMobile .circleSpinMobile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: .2rem solid transparent;
+    border-bottom: .2rem solid transparent;
+    border-left: .2rem solid #00abf0;
+    border-right: .2rem solid #00abf0;
+    animation: circleSpin 6s linear infinite;
   }
 
   .links {
@@ -286,21 +287,12 @@
     font-size: 13px;
   }
 
-  .myImageDivMobile img{
-    max-width: 200px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border: 2px solid #00abf0;
-    transition: .6s;
-    padding-bottom: 10px;
-  }
-
   .btnBox {
     display: flex;
     justify-content: center;
     gap: 10px;
   }
-} */
+} 
 
 
 

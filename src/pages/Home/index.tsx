@@ -8,6 +8,7 @@ function Home() {
         <h1>Jonatas Laguna</h1>
         <h3>Front-end Developer</h3>
         <div className={ styles.myImageDivMobile }>
+        <span className={ styles.circleSpinMobile }></span>
         <img src="/images/profileIcon.png" alt="image exemple" /> 
         </div>
         <p>Olá, seja bem vindo ao meu portfólio pessoal, aqui você pode encontrar alguns dos meus projetos e entrar em contato comigo.</p>
