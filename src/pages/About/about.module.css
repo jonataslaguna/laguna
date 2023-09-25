@@ -6,16 +6,21 @@
   padding-bottom: 200px;
 }
 
-.container h2, h3 {
-  text-align: start;
-  padding: 5px 40px 10px 40px;
-}
-
 .container h1 {
   font-size: 40px;
   font-weight: 700;
   padding: 5px 40px 10px 40px;
 }
+
+.container h2, h3 {
+  text-align: start;
+  padding: 5px 40px 10px 40px;
+}
+
+.container h3, .trybeLink {
+  color: #00acf09d;
+ }
+
 
 .container img {
   width: 250px;
@@ -55,24 +60,11 @@
    .container img {
     display: none;
    }
+
+   .container h3 {
+    text-align: start;
+   }
    
 }
 
-/* @media screen and (max-width: 350px) {
-
-  .container {
-    padding-top: 50px;
-  }
-  .container h1 {
-    font-size: 30px;
-  }
-  .container p {
-    font-size: 16px;
-  }
-
-  .about {
-    width: 100%;
-  }
-
-} */
     

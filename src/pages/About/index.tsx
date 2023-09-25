@@ -14,7 +14,7 @@ function About() {
           </div>
           <div className={styles.aboutEducation}>
             <h2>Formação</h2>
-            <h3>Desenvolvimento Web Full Stack - <a href="https://www.betrybe.com/" target="_blank">Trybe</a>, conclusão em Março de 2024.</h3>
+            <h3>Desenvolvimento Web Full Stack - <a href="https://www.betrybe.com/" target="_blank" className={ styles.trybeLink }>Trybe</a>, conclusão em Março de 2024.</h3>
             <p>
               Mais de 1.500 horas de aulas com foco em: Introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
             </p>
