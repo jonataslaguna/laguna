@@ -50,7 +50,7 @@ function Tech() {
                             </li>
                             <li>
                                 <p className={styles.name}>GitHub</p>
-                                <img src="/images/gitHubLogo.png" alt="GitHub" />
+                                <img src="/public/svg/gitHub.svg" alt="GitHub" />
                             </li>
                             <li>
                                 <p className={styles.name}>Testing Library</p>
