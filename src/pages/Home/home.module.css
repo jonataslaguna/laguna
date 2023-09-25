@@ -200,12 +200,10 @@
   
   .content {
     align-items: center;
-  }
-  
-  .content {
     justify-content: center;
+    padding: 50px;
   }
-  
+
   .content h1 {
     font-size: 40px;
     line-height: 1;
