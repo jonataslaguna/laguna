@@ -1,30 +1,29 @@
 import { Link } from "react-router-dom";
-import styles from './nav.module.css'
 import { useState } from "react";
+import { useContext } from "react";
+import PortfolioContext from "../../context/PortfolioContext";
+
+import styles from './nav.module.css'
 
 function Nav() {
-  const [activeLink, setActiveLink] = useState<string | null>('/');
-
-  const handleClick = (route: string) => {
-    setActiveLink(route);
-  }
-
+  const { handleClickRoutes, activeLink } = useContext(PortfolioContext);
+  
   return (
     <nav className={styles.navContainer}>
       <ul className={styles.linksNav}>
-        <li onClick={() => handleClick('/')}>
+        <li onClick={() => handleClickRoutes('/')}>
           <Link className={activeLink === "/" ? styles.active : ""} to="/">Home</Link>
         </li>
-        <li onClick={() => handleClick('/about')}>
+        <li onClick={() => handleClickRoutes('/about')}>
           <Link className={activeLink === "/about" ? styles.active : ""} to="/about">About</Link>
         </li>
-        <li onClick={() => handleClick('/techStack')}>
+        <li onClick={() => handleClickRoutes('/techStack')}>
           <Link className={activeLink === "/techStack" ? styles.active : ""} to="/techStack">Skills</Link>
         </li>
-        <li onClick={() => handleClick('/projects')}>
+        <li onClick={() => handleClickRoutes('/projects')}>
           <Link className={activeLink === "/projects" ? styles.active : ""} to="/projects">Projects</Link>
         </li>
-        <li onClick={() => handleClick('/contact')}>
+        <li onClick={() => handleClickRoutes('/contact')}>
           <Link className={activeLink === "/contact" ? styles.active : ""} to="/contact">Contact</Link>
         </li>
         <li className={styles.gitHubAndLinkedinLinks}>

@@ -1,7 +1,12 @@
-import styles from './home.module.css'
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import PortfolioContext from '../../context/PortfolioContext';
+
+import styles from './home.module.css'
 
 function Home() {
+  const { handleClickRoutes } = useContext(PortfolioContext);
+
   return (
     <section className={ styles.container }>
       <div className={ styles.content }>
@@ -13,8 +18,8 @@ function Home() {
         </div>
         <p>Olá, seja bem vindo ao meu portfólio pessoal, aqui você pode encontrar alguns dos meus projetos e entrar em contato comigo.</p>
         <div className={ styles.btnBox }>
-          <Link to='/about'>About</Link>
-          <Link to='/projects'>Projets</Link>
+          <Link to='/about' onClick={ () => handleClickRoutes('/about')}>About</Link>
+          <Link to='/projects' onClick={ () => handleClickRoutes('/projects')}>Projets</Link>
         </div>
         <div className={ styles.links }>
           <a href="https://github.com/jonataslaguna" target="_blank"><i className='bx bxl-github'></i></a>
