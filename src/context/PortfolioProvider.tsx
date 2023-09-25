@@ -7,7 +7,8 @@ type PortfolioProvider = {
   
 
 function PortfolioProvider  ({ children }: PortfolioProvider )  {
-  const [activeLink, setActiveLink] = useState<string>('/');
+  const route = window.location.pathname;
+  const [activeLink, setActiveLink] = useState<string>(route);
 
   const handleClickRoutes = (route: string) => {
     setActiveLink(route);
