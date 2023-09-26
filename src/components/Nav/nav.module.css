@@ -30,14 +30,8 @@
   }
 
   .linksNav {
-    font-size: 17px;
+    font-size: 15px;
     padding: 0, 10px, 0, 10px;
   }
   
 }
-
-@media screen and (max-width: 350px) {
-  .linksNav {
-    font-size: 15px;
-  }
-}; 
