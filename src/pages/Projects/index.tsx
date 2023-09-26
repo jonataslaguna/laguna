@@ -16,7 +16,7 @@ function Projects() {
         <Card 
           img="https://via.placeholder.com/150"
           projectName="Recipes App"
-          description="Mobile recipe app"
+          description="⚠️ Leia o ReadMe antes de utilizar ⚠️"
           technologies="Typescript, React, JavaScript, React Testing Library, API, CSS"
           livePreviewLink="https://recipes-app-xz1r.vercel.app"
           viewCodeLInk="https://github.com/jonataslaguna/recipes-app"
