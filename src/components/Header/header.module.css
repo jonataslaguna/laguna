@@ -1,19 +1,19 @@
 .header {
+  align-items: center;
+  background: transparent;
+  display: flex;
   top:0;
   left:0;
-  width: 100%;
   padding: 20px 10%;
-  display: flex;
-  background: transparent;
   justify-content: space-between;
-  align-items: center;
+  width: 100%;
 }
 
 .logo {
-  font-size: 20px;
   color: #edededd8;
-  text-decoration: none;
+  font-size: 20px;
   font-weight: 600;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {

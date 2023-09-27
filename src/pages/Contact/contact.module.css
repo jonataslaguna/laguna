@@ -19,7 +19,7 @@
 }
 
 .container h2:hover {
- color: #00abf0;
+  color: #00abf0;
 }
 
 @media screen and (max-width: 768px) {

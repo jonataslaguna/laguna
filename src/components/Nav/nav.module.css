@@ -4,8 +4,8 @@
 }
 
 .linksNav {
-  font-size: 18px;
   color: #ededed;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -16,8 +16,8 @@
 }
 
 .gitHubAndLinkedinLinks a img {
-  width: 25px;
   height: 25px;
+  width: 25px;
 }
 
 .active {

@@ -2,40 +2,40 @@
   align-items: center;
   display: flex;
   height: 80vh;
-  padding: 0 10%;
   justify-content: space-around;
+  padding: 0 10%;
 }
 
 .myImageDiv {
-  position: relative;
-  width: 350px;
-  height: 350px;
+  align-items: center;
   border-radius: 50%;
   display: flex;
+  position: relative;
+  height: 350px;
   justify-content: center;
-  align-items: center;
+  width: 350px;
 }
 
 .myImageDiv img {
-  width: 90%;
   border-radius: 50%;
   border: 2.7px solid #00abf0;
   transition: .6s;
+  width: 90%;
 }
 
 .myImageDiv .circleSpin {
-  position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(0);
-  width: 100%;
-  height: 100%;
+  animation: circleSpin 6s linear infinite;
   border-radius: 50%;
   border-top: .2rem solid transparent;
   border-bottom: .2rem solid transparent;
   border-left: .2rem solid #00abf0;
   border-right: .2rem solid #00abf0;
-  animation: circleSpin 6s linear infinite;
+  top:50%;
+  height: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+  position: absolute;
+  width: 100%;
 }
 
 @keyframes circleSpin {
@@ -52,10 +52,10 @@
 }
 
 .content {
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
   align-items: self-start;
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
 }
 
 .content h1 {
