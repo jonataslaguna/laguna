@@ -18,7 +18,7 @@
 }
 
 .container h3, .trybeLink {
-  color: #00acf09d;
+  color: #00acf0bd;
  }
 
 
@@ -34,6 +34,7 @@
   line-height: 30px;
   max-width: 800px;
   padding: 5px 40px 10px 40px;
+  letter-spacing: 1px
 }
 
 .about {
@@ -49,6 +50,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.aboutEducation h3:hover {
+  color: #00abf0;
 }
 
 @media screen and (max-width: 768px) {
