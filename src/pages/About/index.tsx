@@ -9,7 +9,7 @@ function About() {
           <div>
             <h1>Sobre Mim</h1>
             <p>
-              Tenho 27 anos e atualmente moro em São Paulo capital. Iniciei minha tragetória profissional como vendedor, onde aprendi a arte da comunicação. Essa foi uma experiência valiosa que me permitiu desenvolver habilidades essenciais que sempre será util em qualquer área. No entanto, sempre tive um interesse muito maior pela tecnologia, mais especificamente, pela programação. Paralelamente ao meu trabalho, sempre estudei e consumi muitos conteúdos relacionados à programação, e esse interesse foi crescendo cada vez mais.<br/>
+              Tenho 27 anos e atualmente moro em São Paulo capital. Iniciei minha tragetória profissional como vendedor, onde aprendi a arte da comunicação. Essa foi uma experiência valiosa que me permitiu desenvolver habilidades essenciais que sempre será útil em qualquer área. No entanto, sempre tive um interesse muito maior pela tecnologia, mais especificamente, pela programação. Paralelamente ao meu trabalho, sempre estudei e consumi muitos conteúdos relacionados à programação, e esse interesse foi crescendo cada vez mais.<br/>
 
               Atualmente, decidi focar e me dedicar exclusivamente a isso, que é, o que realmente nasci para fazer. Estou imerso no estudo de desenvolvimento web full stack na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. Já concluí minha formação em front-end e agora estou concentrado em aprimorar minhas habilidades tanto no front-end quanto no back-end, continuando a busca pela constante evolução. Aqui, você encontrará alguns dos meus projetos que representam minha jornada de aprendizado e meu compromisso com o aprimoramento constante.<br/>
 
