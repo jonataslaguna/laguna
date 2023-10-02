@@ -14,7 +14,7 @@
 
 .card:hover {
   box-shadow: 2px 2px 5px 1px #00acf034;
-  transform: scale(1.01);
+  transform: scale(1.03);
 }
 
 .card .imageProject {
