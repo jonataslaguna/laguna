@@ -11,7 +11,7 @@ function Home() {
     <section className={ styles.container }>
       <div className={ styles.content }>
         <h1>Jonatas Laguna</h1>
-        <h3>Front-end Developer</h3>
+        <h3>Full Stack Developer</h3>
         <div className={ styles.myImageDivMobile }>
         <span className={ styles.circleSpinMobile }></span>
         <img src="/images/jonatas-laguna.png" alt="jonatas laguna" />
