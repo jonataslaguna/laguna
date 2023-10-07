@@ -22,13 +22,22 @@
 }
 
 .footer {
-  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px; 
 }
 
 @media screen and (max-width: 768px) {
+  
+  .projectsContainer {
+    padding-bottom: 0;
+  }
+
   .footer {
-    display: block;
-    margin-top: 50px;
+    position: relative;
+    padding-top: 80px;
   }
 }
 

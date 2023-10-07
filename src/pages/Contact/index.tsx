@@ -5,12 +5,16 @@ import styles from './contact.module.css';
 
 function ContactPage() {
   return (
-    <div className={ styles.container }>
-     <h1>Contato</h1>
-     <h3>Para qualquer dúvida, envie-me um e-mail:</h3>
-      <Form />
+    <>
+      <div className={ styles.container }>
+      <h1>Contato</h1>
+      <h3>Para qualquer dúvida, envie-me um e-mail:</h3>
+        <Form />
+      </div>
+      <div className={ styles.footer}>
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }
 
