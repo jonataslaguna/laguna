@@ -44,8 +44,8 @@
 @media screen and (max-width: 768px) {
     .listFooter {
       justify-content: center;
-      padding-bottom: 15px;
-      gap: 110px;
+      padding-bottom: 0 10px 20px 10px; 
+      gap: 95px;
     }
     .links {
       gap: 20px;
