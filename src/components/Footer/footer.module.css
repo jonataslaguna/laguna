@@ -34,7 +34,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .line {
@@ -44,8 +44,8 @@
 @media screen and (max-width: 768px) {
     .listFooter {
       justify-content: center;
-      padding: 10px;
-      gap: 90px;
+      padding-bottom: 15px;
+      gap: 110px;
     }
     .links {
       gap: 20px;

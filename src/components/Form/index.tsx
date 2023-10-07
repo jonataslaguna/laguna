@@ -14,6 +14,7 @@ function Form () {
 
                 <button>Enviar</button>
                 <input type="hidden" name="_next" value="https://portfolio-one-gamma-92.vercel.app/contact"></input>
+                <input type="hidden" name="_captcha" value="false"></input>
             </form>
         </div>
     );

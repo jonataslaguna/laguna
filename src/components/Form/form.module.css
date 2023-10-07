@@ -5,7 +5,7 @@
   color: #edededd8;
   flex-direction: column;
   justify-content: center;
-  padding-top: 24px;
+  padding-top: 10px;
 }
 
 .form {
@@ -14,7 +14,6 @@
   flex-direction: column;
   gap: 10px;
   width:700px;
-  padding: 20px;
 }
 
 .inputGroup {
@@ -103,6 +102,7 @@
     .form {
         width: 100%;
         gap: 20px;
+        padding: 15px;
     }
     .inputGroup {
         flex-direction: column;
