@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
 .container h1 {
@@ -58,16 +58,22 @@
 
 @media screen and (max-width: 768px) {
    .container {
-     flex-direction: column;
-     padding-top: 50px;
-     margin-bottom: 50px;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-bottom: 50px;
    }
    .container img {
-     display: none;
+    display: none;
    }
 
    .container h3 {
-     text-align: start;
+    text-align: start;
+    font-size: 17px;
+   }
+
+   .container p {
+    font-size: 16px;
+    letter-spacing: 0;
    }
    
 }

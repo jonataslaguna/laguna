@@ -26,7 +26,9 @@ function About() {
           </div>
         </div>
       </div>
-      <Footer />
+      <div className={ styles.footer }>
+       <Footer />
+      </div>
     </>
   )
 }
