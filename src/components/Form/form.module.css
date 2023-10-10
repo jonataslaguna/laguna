@@ -31,15 +31,21 @@
 }
 
 .inputGroup input, textarea {
-  background-color: #ededed;
-  color: #081b29;
+  background-color: #ededede1;
   cursor: pointer;
-  font-weight: 540;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 430;
+}
+
+.inputGroup input::placeholder, textarea::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
 .form textarea {
-  padding: 10px;
   height: 200px;
+  padding: 10px;
+  text-align: justify;
 }
 
 .form button {
@@ -51,7 +57,7 @@
   color: #081b29;
   height: 50px;
   font-size: 19px;
-  font-weight: 530;
+  font-weight: 575;
   letter-spacing: 1px;
   margin-top: 10px;
   overflow: hidden;
