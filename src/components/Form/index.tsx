@@ -22,7 +22,6 @@ function Form () {
             alertErrorEmail();
         }
         else {
-           e.preventDefault();
            alertSuccess();
         }
     }
