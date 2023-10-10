@@ -18,8 +18,8 @@ function Home() {
         </div>
           <p>
             Olá, seja bem vindo ao meu portfólio pessoal, 
-            aqui você vai encontrar alguns dos meus projetos,
-            e pode entrar em contato comigo.
+            explore meus projetos e fique à vontade para 
+            entrar em contato.
           </p>
           <div className={ styles.btnBox }>
             <Link to='/about' onClick={ () => handleClickRoutes('/about')}>About</Link>
