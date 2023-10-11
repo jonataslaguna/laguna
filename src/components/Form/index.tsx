@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { alertSuccess, alertError, alertErrorEmail } from '../../utils/alert/alerts';
+import { regexEmail } from '../../regex/regexForm';
+
 import styles from './form.module.css';
 
 const INITIAL_STATE = {
@@ -7,8 +9,6 @@ const INITIAL_STATE = {
     email:'',
     message:'',
 }
-
-const regexEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 function Form () {
     const [ formData, setFormData] = useState(INITIAL_STATE);
