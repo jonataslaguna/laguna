@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   justify-content: space-around;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
 }
 
@@ -56,12 +56,14 @@
   color: #00abf0;
 }
 
+
 @media screen and (max-width: 768px) {
    .container {
     flex-direction: column;
     padding-top: 50px;
     margin-bottom: 50px;
    }
+
    .container img {
     display: none;
    }
