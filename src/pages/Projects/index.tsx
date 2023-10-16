@@ -24,9 +24,9 @@ function Projects() {
           />
 
           <Card 
-            img="/images/projects/ibge.jpg"
+            img="/images/projects/trybe-news.png"
             projectName="Trybe News"
-            description="App de notícias utilizando API do IBGE"
+            description="App de notícias"
             technologies="Typescript, React, Testing Library, API, ContextApi, CSS"
             livePreviewLink="https://trybe-news-eight.vercel.app"
             viewCodeLInk="https://github.com/jonataslaguna/trybe-news"
