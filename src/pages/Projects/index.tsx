@@ -33,7 +33,7 @@ function Projects() {
           />
 
           <Card 
-            img="/images/projects/recipes-app-logo.svg"
+            img="/images/projects/recipes-app.png"
             projectName="Recipes App"
             description="⚠️ Leia o ReadMe antes de utilizar ⚠️"
             technologies="Typescript, React, JavaScript, Testing Library, API, ContextApi, CSS"
