@@ -19,7 +19,7 @@ function Projects() {
             projectName="Netflix Clone"
             description="App de filmes e séries"
             technologies="Typescript, React, Testing Library, API, ContextApi, CSS"
-            livePreviewLink="https://netflix-clone-flax-ten-98.vercel.app"
+            livePreviewLink="https://netflix-ts-react.vercel.app"
             viewCodeLInk="https://github.com/jonataslaguna/netflix-clone"
           />
 
