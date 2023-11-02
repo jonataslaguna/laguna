@@ -37,7 +37,7 @@ function Projects() {
             projectName="Recipes App"
             description="⚠️ Leia o ReadMe antes de utilizar ⚠️"
             technologies="Typescript, React, JavaScript, Testing Library, API, ContextApi, CSS"
-            livePreviewLink="recipes-app-jonatas-laguna.vercel.app"
+            livePreviewLink="https://recipes-app-jonatas-laguna.vercel.app"
             viewCodeLInk="https://github.com/jonataslaguna/recipes-app"
           />
 
