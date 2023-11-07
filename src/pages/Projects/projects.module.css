@@ -16,17 +16,12 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 25px;
   padding: 20px;
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px; 
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 @media screen and (max-width: 768px) {

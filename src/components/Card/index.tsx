@@ -9,7 +9,7 @@ function Card ({img, projectName, description, technologies, livePreviewLink, vi
             <img src={ img } alt={ projectName } className={ styles.imageProject }/>
 
             <div className={ styles.infos }>
-                <h2>{ projectName }</h2>
+                <h2>{ projectName } </h2>
                 <p>{ description }</p>
                 <p><strong>Tecnologias: </strong>{ technologies }</p>
             </div>

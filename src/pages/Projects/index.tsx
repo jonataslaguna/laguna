@@ -18,7 +18,7 @@ function Projects() {
             img="/images/projects/netflix.jpg"
             projectName="Netflix Clone"
             description="App de filmes e séries"
-            technologies="Typescript, React, Testing Library, API, ContextApi, CSS"
+            technologies="Typescript, React, API, ContextApi, CSS..."
             livePreviewLink="https://netflix-ts-react.vercel.app"
             viewCodeLInk="https://github.com/jonataslaguna/netflix-clone"
           />
@@ -27,7 +27,7 @@ function Projects() {
             img="/images/projects/trybe-news.png"
             projectName="Trybe News"
             description="App de notícias"
-            technologies="Typescript, React, Testing Library, API, ContextApi, CSS"
+            technologies="Typescript, React, Testing Library, API, ContextApi, CSS..."
             livePreviewLink="https://trybe-news-eight.vercel.app"
             viewCodeLInk="https://github.com/jonataslaguna/trybe-news"
           />
@@ -36,9 +36,18 @@ function Projects() {
             img="/images/projects/recipes-app.png"
             projectName="Recipes App"
             description="⚠️ Leia o ReadMe antes de utilizar ⚠️"
-            technologies="Typescript, React, JavaScript, Testing Library, API, ContextApi, CSS"
+            technologies="Typescript, React, JavaScript, Testing Library, API, ContextApi, CSS..."
             livePreviewLink="https://recipes-app-jonatas-laguna.vercel.app"
             viewCodeLInk="https://github.com/jonataslaguna/recipes-app"
+          />
+
+          <Card 
+            img="/images/projects/store-manager.png"
+            projectName="Store Manager"
+            description="API RESTful"
+            technologies="JavaScript, Express, Mysql, Docker, Mocha..."
+            livePreviewLink="https://github.com/jonataslaguna/store-manager"
+            viewCodeLInk="https://github.com/jonataslaguna/store-manager"
           />
 
         </div>
