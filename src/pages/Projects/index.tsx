@@ -45,9 +45,18 @@ function Projects() {
             img="/images/projects/store-manager.png"
             projectName="Store Manager"
             description="API RESTful"
-            technologies="JavaScript, Express, Mysql, Docker, Mocha..."
+            technologies="Node.js, Express, Mysql, Docker, Mocha..."
             livePreviewLink="https://github.com/jonataslaguna/store-manager"
             viewCodeLInk="https://github.com/jonataslaguna/store-manager"
+          />
+
+          <Card 
+            img="/images/projects/blogs-api.png"
+            projectName="Blogs API"
+            description="API RESTful utilizando Sequelize"
+            technologies="Node.js, Express, Mysql, Docker, Sequelize..."
+            livePreviewLink="https://github.com/jonataslaguna/blogs-api"
+            viewCodeLInk="https://github.com/jonataslaguna/blogs-api"
           />
 
         </div>
