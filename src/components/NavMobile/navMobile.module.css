@@ -33,6 +33,7 @@
         display: flex;
         flex-direction: column;
         justify-content: start;
+        margin-bottom: 10px;
         padding: 10px;
         width: 100%;
     }
@@ -40,7 +41,7 @@
     .linksNav {
         display: flex;
         flex-direction: column;
-        font-size: 24px;
+        font-size: 22px;
         padding: 10px;
         gap: 40px;
     }
