@@ -18,8 +18,10 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    justify-content: center;
+    justify-content: space-between;
+    padding: 10px 5px 10px 5px;
   }
+
   .logo {
     display: none;
   }

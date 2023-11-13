@@ -2,6 +2,7 @@ import { useContext } from "react";
 import Nav from "../Nav";
 import { Link } from "react-router-dom";
 import PortfolioContext from "../../context/PortfolioContext";
+import NavMobile from "../NavMobile";
 
 import styles from './header.module.css';
 
@@ -12,6 +13,7 @@ function Header() {
     <header className={styles.header}>
       <Link to="/" className={styles.logo} onClick={() => handleClickRoutes('/')} >Laguna.</Link>
       <Nav />
+      <NavMobile />
     </header>
   );
 }

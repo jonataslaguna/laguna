@@ -1,0 +1,62 @@
+.container {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .menu {
+        align-items: center;
+        padding: 10px;
+        display:flex;
+        justify-content: space-between;
+    }
+
+
+    .logo {
+        color: #edededd8;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .navContainer {
+        background-color:  #131212;
+        border-radius: 10px;
+        box-shadow: 0px 5px 7px black;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .linksNav {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        padding: 10px;
+        gap: 40px;
+    }
+
+    .gitHubAndLinkedinLinks {
+        display: flex;
+        gap: 45px;
+    }
+
+    .gitHubAndLinkedinLinks a img {
+        height: 40px; 
+        width: 40px;
+    }
+
+    .active {
+        color: #00abf0;
+    }
+    
+}

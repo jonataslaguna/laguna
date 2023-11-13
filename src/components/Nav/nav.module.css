@@ -25,6 +25,11 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .navContainer {
+    display: none;
+  }
+  
   .gitHubAndLinkedinLinks {
     display: none;
   }
