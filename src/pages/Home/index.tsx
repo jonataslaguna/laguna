@@ -14,7 +14,7 @@ function Home() {
         <h3>Full Stack Developer</h3>
         <div className={ styles.myImageDivMobile }>
         <span className={ styles.circleSpinMobile }></span>
-        <img src="/images/jonatas-laguna.png" alt="jonatas laguna" />
+        <img src='/images/jonatas-laguna.png' alt='jonatas laguna' />
         </div>
           <p>
             Olá, seja bem vindo ao meu portfólio pessoal, 
@@ -26,12 +26,12 @@ function Home() {
             <Link to='/projects' onClick={ () => handleClickRoutes('/projects')}>Projets</Link>
           </div>
         <div className={ styles.links }>
-          <a href="https://github.com/jonataslaguna" target="_blank"><i className='bx bxl-github'></i></a>
-          <a href="https://www.linkedin.com/in/jonataslaguna/" target="_blank"><i className='bx bxl-linkedin'></i></a>
+          <a href='https://github.com/jonataslaguna' target='_blank'><i className='bx bxl-github'></i></a>
+          <a href='https://www.linkedin.com/in/jonataslaguna/' target='_blank'><i className='bx bxl-linkedin'></i></a>
         </div>
       </div>
       <div className={ styles.myImageDiv }>
-        <img src="/images/jonatas-laguna.png" alt="jonatas laguna" />
+        <img src='/images/jonatas-laguna.png' alt='jonatas laguna' />
         <span className={ styles.circleSpin }></span>
       </div>
     </section>

@@ -38,44 +38,44 @@ function Form () {
 
     return (
         <div className={ styles.formContainer }>
-            <form className={ styles.form } action="https://formsubmit.co/jonataslaguna.js@gmail.com" method="POST" onSubmit={ handleSubmit }>
+            <form className={ styles.form } action='https://formsubmit.co/jonataslaguna.js@gmail.com' method='POST' onSubmit={ handleSubmit }>
 
                 <div className={ styles.inputGroup }>
                     <input 
-                      type="text" 
-                      id="name"
-                      name="name" 
+                      type='text' 
+                      id='name'
+                      name='name' 
                       placeholder='Nome' 
                       autoComplete='none'  
-                      spellCheck="false" 
+                      spellCheck='false' 
                       value={ formData.name }
                       onChange={ handleChange }
                      />
 
                     <input 
-                      type="email"
-                      id="email" 
+                      type='email'
+                      id='email' 
                       placeholder='Seu e-mail' 
-                      name="email" 
-                      spellCheck="false" 
+                      name='email' 
+                      spellCheck='false' 
                       value={ formData.email }
                       onChange={ handleChange }
                     />
                 </div>
 
                 <textarea
-                  id="message"
-                  name="message"
+                  id='message'
+                  name='message'
                   placeholder='Mensagem'
-                  spellCheck="false"
+                  spellCheck='false'
                   value={ formData.message }
                   onChange={ handleChange }
                 >
                 </textarea>
 
                 <button>Enviar</button>
-                <input type="hidden" name="_next" value="https://portfolio-one-gamma-92.vercel.app/contact"></input>
-                <input type="hidden" name="_captcha" value="false"></input>
+                <input type='hidden' name='_next' value='https://jonatas-laguna.vercel.app/contact'></input>
+                <input type='hidden' name='_captcha' value='false'></input>
             </form>
         </div>
     );

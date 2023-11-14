@@ -1,4 +1,3 @@
-
 import Footer from '../../components/Footer';
 import Form from '../../components/Form';
 import styles from './contact.module.css';

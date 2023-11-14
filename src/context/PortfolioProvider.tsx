@@ -1,5 +1,5 @@
-import { useState } from "react";
-import PortfolioContext from "./PortfolioContext";
+import { useState } from 'react';
+import PortfolioContext from './PortfolioContext';
 
 type PortfolioProvider = {
     children: React.ReactNode;
@@ -19,6 +19,6 @@ function PortfolioProvider  ({ children }: PortfolioProvider )  {
         {children}
         </PortfolioContext.Provider>
     );
-};
+}
 
 export default PortfolioProvider;

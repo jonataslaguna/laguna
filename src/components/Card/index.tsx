@@ -1,5 +1,5 @@
-import { CardProps } from "../../types";
-import styles from "./card.module.css"
+import { CardProps } from '../../types';
+import styles from './card.module.css'
 import link from '/svg/link.svg'
 import gitHubIconLInk from '/svg/gitHubIconLInk.svg'
 
@@ -16,12 +16,12 @@ function Card ({img, projectName, description, technologies, livePreviewLink, vi
             
             <div className={ styles.cardLinks }>
                 <div>
-                    <img src={link} alt="linkIcon" />
-                    <a href={ livePreviewLink } target="_blank">Live Preview</a>
+                    <img src={link} alt='linkIcon' />
+                    <a href={ livePreviewLink } target='_blank'>Live Preview</a>
                 </div>
                 <div>
-                    <img src={ gitHubIconLInk } alt="gitHubIcon" />
-                    <a href={ viewCodeLInk } target="_blank">View Code</a>
+                    <img src={ gitHubIconLInk } alt='gitHubIcon' />
+                    <a href={ viewCodeLInk } target='_blank'>View Code</a>
                 </div>
             </div>
         </div>
