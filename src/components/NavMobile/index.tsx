@@ -2,6 +2,7 @@ import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import PortfolioContext from '../../context/PortfolioContext';
 import menuIcon from '/svg/menu.svg';
+import arrowIcon from '/svg/right.svg';
 
 import styles from './navMobile.module.css'
 
@@ -21,50 +22,80 @@ function NavMobile () {
       </div>
       {showNav && 
       <nav className={styles.navContainer}>
+
         <ul className={styles.linksNav}>
-          <li onClick={() => handleClickRoutes('/')}>
-            <Link 
-              className={activeLink === '/' ? styles.active : ''} 
-              to='/' 
-              onClick={ handleClick }
-            > Home
+
+          <li>
+            <Link
+              className={activeLink === '/' ? styles.active : ''}
+              to='/'
+              onClick={() => {
+                handleClick();
+                handleClickRoutes('/');
+              }}
+            >
+              Home
+              <img src={arrowIcon} alt='Arrow Icon' />
             </Link>
           </li>
-          <li onClick={() => handleClickRoutes('/about')}>
-            <Link 
-              className={activeLink === '/about' ? styles.active : ''} 
-              to='/about' onClick={ handleClick }
+  
+          <li>
+            <Link
+              className={activeLink === '/about' ? styles.active : ''}
+              to='/about'
+              onClick={() => {
+                handleClick();
+                handleClickRoutes('/about');
+              }}
             >
               About
+              <img src={ arrowIcon } alt='Arrow Icon' />
             </Link>
           </li>
-          <li onClick={() => handleClickRoutes('/techStack')}>
+          
+          <li>
             <Link 
               className={activeLink === '/techStack' ? styles.active : ''} 
               to='/techStack' 
-              onClick={ handleClick }
+              onClick={ () => {
+                handleClick();
+                handleClickRoutes('/techStack')
+              }}
             >
               Skills
+              <img src={ arrowIcon } alt='Arrow Icon' />
             </Link>
           </li>
-          <li onClick={() => handleClickRoutes('/projects')}>
+
+          <li>
             <Link 
               className={activeLink === '/projects' ? styles.active : ''} 
               to='/projects' 
-              onClick={ handleClick }
+              onClick={() => {
+                handleClick();
+                handleClickRoutes('/projects');
+              }}
             >
               Projects
+              <img src={ arrowIcon } alt='Arrow Icon' />
             </Link>
           </li>
-          <li onClick={() => handleClickRoutes('/contact')}>
+
+          <li>
             <Link 
               className={activeLink === '/contact' ? styles.active : ''} 
               to='/contact' 
-              onClick={ handleClick }
+              onClick={() => {
+                handleClick();
+                handleClickRoutes('/contact');
+              }}
             >
               Contact
+              <img src={ arrowIcon } alt='Arrow Icon' />
             </Link>
+
           </li>
+
           <li className={styles.gitHubAndLinkedinLinks}>
             <a href='https://github.com/jonataslaguna' target='_blank'>
               <img src='svg/gitHub.svg' alt='GitHub Link' />
@@ -73,6 +104,7 @@ function NavMobile () {
               <img src='svg/linkedin.svg' alt='Linkedin Link' />
             </a>
           </li>
+          
         </ul>
       </nav> 
       }

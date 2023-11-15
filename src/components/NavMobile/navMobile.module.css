@@ -56,6 +56,11 @@
         width: 40px;
     }
 
+    .linksNav li a {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .active {
         color: #00abf0;
     }
