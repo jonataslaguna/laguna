@@ -10,16 +10,18 @@ function NavMobile () {
     const { handleClickRoutes, activeLink } = useContext(PortfolioContext);
     const [showNav, setShowNav ] = useState(false);
 
-    const handleClick = () => {
+    const handleClickShowNav = () => {
       setShowNav(!showNav);
     };
 
     return (
     <div className={ styles.container }>
+      
       <div className={ styles.menu}>
        <Link to='/' className={styles.logo} onClick={() => handleClickRoutes('/')}>Laguna.</Link>
-       <img src={menuIcon} alt='Menu Icon' onClick={ handleClick }/>
+       <img src={menuIcon} alt='Menu Icon' onClick={ handleClickShowNav }/>
       </div>
+
       {showNav && 
       <nav className={styles.navContainer}>
 
@@ -30,7 +32,7 @@ function NavMobile () {
               className={activeLink === '/' ? styles.active : ''}
               to='/'
               onClick={() => {
-                handleClick();
+                handleClickShowNav();
                 handleClickRoutes('/');
               }}
             >
@@ -44,7 +46,7 @@ function NavMobile () {
               className={activeLink === '/about' ? styles.active : ''}
               to='/about'
               onClick={() => {
-                handleClick();
+                handleClickShowNav();
                 handleClickRoutes('/about');
               }}
             >
@@ -58,7 +60,7 @@ function NavMobile () {
               className={activeLink === '/techStack' ? styles.active : ''} 
               to='/techStack' 
               onClick={ () => {
-                handleClick();
+                handleClickShowNav();
                 handleClickRoutes('/techStack')
               }}
             >
@@ -72,7 +74,7 @@ function NavMobile () {
               className={activeLink === '/projects' ? styles.active : ''} 
               to='/projects' 
               onClick={() => {
-                handleClick();
+                handleClickShowNav();
                 handleClickRoutes('/projects');
               }}
             >
@@ -86,7 +88,7 @@ function NavMobile () {
               className={activeLink === '/contact' ? styles.active : ''} 
               to='/contact' 
               onClick={() => {
-                handleClick();
+                handleClickShowNav();
                 handleClickRoutes('/contact');
               }}
             >
@@ -104,7 +106,7 @@ function NavMobile () {
               <img src='svg/linkedin.svg' alt='Linkedin Link' />
             </a>
           </li>
-          
+
         </ul>
       </nav> 
       }
