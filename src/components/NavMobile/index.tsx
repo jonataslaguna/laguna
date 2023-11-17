@@ -1,8 +1,10 @@
 import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import PortfolioContext from '../../context/PortfolioContext';
+
 import menuIcon from '/svg/menu.svg';
 import arrowIcon from '/svg/right.svg';
+import xIcon from '/images/icons/x-icon.png';
 
 import styles from './navMobile.module.css'
 
@@ -19,7 +21,7 @@ function NavMobile () {
       
       <div className={ styles.menu}>
        <Link to='/' className={styles.logo} onClick={() => handleClickRoutes('/')}>Laguna.</Link>
-       <img src={menuIcon} alt='Menu Icon' onClick={ handleClickShowNav }/>
+       { showNav ? <img src={xIcon} alt='X Icon' onClick={ handleClickShowNav }/> :<img src={menuIcon} alt='Menu Icon' onClick={ handleClickShowNav }/>}
       </div>
 
       {showNav && 
