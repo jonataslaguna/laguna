@@ -54,7 +54,7 @@ function Projects() {
             img='/images/projects/blogs-api.png'
             projectName='Blogs API'
             description='API RESTful utilizando Sequelize'
-            technologies='Node.js, Express, Mysql, Docker, Sequelize...'
+            technologies='Node.js, Express, Mysql, Docker, Sequelize, JWT...'
             livePreviewLink='https://github.com/jonataslaguna/blogs-api'
             viewCodeLInk='https://github.com/jonataslaguna/blogs-api'
           />
