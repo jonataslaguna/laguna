@@ -4,7 +4,7 @@ import PortfolioContext from '../../context/PortfolioContext';
 
 import menuIcon from '/svg/menu.svg';
 import arrowIcon from '/svg/right.svg';
-import xIcon from '/images/icons/x-icon.png';
+import xIcon from '/images/icons/x-symbol.png';
 
 import styles from './navMobile.module.css'
 
