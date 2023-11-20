@@ -20,7 +20,11 @@ function NavMobile () {
     <div className={ styles.container }>
       
       <div className={ styles.menu}>
-       <Link to='/' className={styles.logo} onClick={() => handleClickRoutes('/')}>Laguna.</Link>
+       <Link to='/' className={styles.logo} onClick={() => {
+            handleClickShowNav();
+            handleClickRoutes('/');
+          }}>Laguna.
+       </Link>
        { showNav ? <img src={xIcon} alt='X Icon' onClick={ handleClickShowNav }/> :<img src={menuIcon} alt='Menu Icon' onClick={ handleClickShowNav }/>}
       </div>
 
