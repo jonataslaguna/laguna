@@ -42,28 +42,43 @@ function Projects() {
           />
 
           <Card 
-            img='/images/projects/store-manager.png'
-            projectName='Store Manager'
-            description='API RESTful'
-            technologies='Node.js, Express, Mysql, Docker, Mocha...'
-            livePreviewLink='https://github.com/jonataslaguna/store-manager'
-            viewCodeLInk='https://github.com/jonataslaguna/store-manager'
+            img='/images/projects/soccer-club.png'
+            projectName='Soccer Club'
+            description='Site informativo sobre partidas de futebol'
+            technologies='TypeScript, JavaScript, Node.js, Express, Docker, Sequelize, Mocha'
+            livePreviewLink='https://github.com/jonataslaguna/soccer-club'
+            viewCodeLInk='https://github.com/jonataslaguna/soccer-club'
           />
-
+          
           <Card 
             img='/images/projects/blogs-api.png'
             projectName='Blogs API'
-            description='API RESTful utilizando Sequelize'
+            description='API RESTful para um blog'
             technologies='Node.js, Express, Mysql, Docker, Sequelize, JWT...'
             livePreviewLink='https://github.com/jonataslaguna/blogs-api'
             viewCodeLInk='https://github.com/jonataslaguna/blogs-api'
           />
 
+          <Card 
+            img='/images/projects/legendary-smith.png'
+            projectName='Lendary Smith API'
+            description='API RESTful para loja de itens medievais'
+            technologies='TypeScript, Node.js, Express, Mysql, Docker, Sequelize, Mocha, JWT...'
+            livePreviewLink='https://github.com/jonataslaguna/legendary-smith-api'
+            viewCodeLInk='https://github.com/jonataslaguna/legendary-smith-api'
+          />
+
+          <Card 
+            img='/images/projects/store-manager.png'
+            projectName='Store Manager'
+            description='API RESTful para um sistema de vendas'
+            technologies='Node.js, Express, Mysql, Docker, Mocha...'
+            livePreviewLink='https://github.com/jonataslaguna/store-manager'
+            viewCodeLInk='https://github.com/jonataslaguna/store-manager'
+          />
         </div>
       </div>
-        <div className={ styles.footer }>
-          <Footer />
-        </div>
+        <Footer />
     </>
   );
 }
