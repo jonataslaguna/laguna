@@ -1,4 +1,5 @@
 import Footer from '../../components/Footer';
+import getAge from '../../utils/age/getAge';
 import styles from './about.module.css';
 
 function About() {
@@ -9,7 +10,7 @@ function About() {
           <div>
             <h1>Sobre Mim</h1>
             <p>
-              Tenho 27 anos e atualmente moro em São Paulo capital. Iniciei minha trajetória profissional como vendedor, onde aprendi a arte da comunicação. Essa foi uma experiência valiosa que me permitiu desenvolver habilidades essenciais que sempre será útil em qualquer área. No entanto, sempre tive um interesse muito maior pela tecnologia, mais especificamente, pela programação. Paralelamente ao meu trabalho, sempre estudei e consumi muitos conteúdos relacionados à programação, e esse interesse foi crescendo cada vez mais.
+              Tenho {getAge()} anos e atualmente moro em São Paulo capital. Iniciei minha trajetória profissional como vendedor, onde aprendi a arte da comunicação. Essa foi uma experiência valiosa que me permitiu desenvolver habilidades essenciais que sempre será útil em qualquer área. No entanto, sempre tive um interesse muito maior pela tecnologia, mais especificamente, pela programação. Paralelamente ao meu trabalho, sempre estudei e consumi muitos conteúdos relacionados à programação, e esse interesse foi crescendo cada vez mais.
             </p>
 
             <p>
