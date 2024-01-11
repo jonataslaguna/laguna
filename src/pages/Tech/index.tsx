@@ -4,14 +4,14 @@ import styles from './tech.module.css';
 function Tech() {
 
     return (
-        <section className={styles.container}>
-            <div>
-                <h1>My Tech Stack</h1>
-                <h3>Tecnologias que tenho conhecimento</h3>
-            </div>
-            <div>
-                <ul className={styles.listTech}>
-                    <div className={styles.techsPart1}>
+        <>
+            <section className={styles.container}>
+                <div>
+                    <h1>My Tech Stack</h1>
+                    <h3>Principais tecnologias que tenho conhecimento</h3>
+                </div>
+                <div>
+                    <ul className={styles.listTech}>
                         <li>
                             <p className={styles.name}>JavaScript</p>
                             <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg' alt='JavaScript' />
@@ -22,7 +22,11 @@ function Tech() {
                         </li>
                         <li>
                             <p className={styles.name}>Node.js</p>
-                            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg' />
+                            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg' alt='Node.js'/>
+                        </li>
+                        <li>
+                            <p className={styles.name}>MySQL</p>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt='MySQL'/>      
                         </li>
                         <li>
                             <p className={styles.name}>React.js</p>
@@ -36,9 +40,6 @@ function Tech() {
                             <p className={styles.name}>CSS 3</p>
                             <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg' alt='CSS3' />
                         </li>
-                    </div>
-
-                    <div className={styles.techsPart2}>
                         <li>
                             <p className={styles.name}>Redux</p>
                             <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg' alt='Redux' />
@@ -63,13 +64,21 @@ function Tech() {
                             <p className={styles.name}>Mocha</p>
                             <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg' />
                         </li>
-                    </div>
-                </ul>
-            </div>
+                        <li>
+                            <p className={styles.name}>Docker</p>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />
+                        </li>
+                        <li>
+                            <p className={styles.name}>Sequelize</p>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />         
+                        </li>
+                    </ul>
+                </div>
+            </section>
             <div className={styles.footer}>
-                <Footer />
+            <Footer />
             </div>
-        </section>
+        </>
     )
 }
 
