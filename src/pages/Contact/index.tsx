@@ -6,10 +6,12 @@ function ContactPage() {
   return (
     <>
       <div className={ styles.container }>
-      <h1>Contato</h1>
-      <h3>Para qualquer dúvida, me envie um e-mail:</h3>
+        <div className={ styles.contactHeader}>
+          <h1>Contato</h1>
+          <h3>Para qualquer dúvida, me envie um e-mail:</h3>
+        </div>
         <Form />
-      </div>
+        </div>
       <div className={ styles.footer}>
       <Footer />
       </div>
