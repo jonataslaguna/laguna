@@ -5,6 +5,7 @@
   justify-content: center;
   padding-top: 30px;
   min-height: 70vh;
+  margin-bottom: 170px;
 }
 
 .contactHeader {
@@ -25,17 +26,10 @@
   color: #00abf0;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px; 
-}
-
 @media screen and (max-width: 768px) {
   .container {
     display: block;
+    margin-bottom: 0;
   }
 
   .contactHeader {
@@ -43,7 +37,6 @@
   }
 
   .footer {
-    position: relative;
     padding-top: 80px;
   }
 }
