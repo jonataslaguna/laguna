@@ -75,9 +75,7 @@ function Tech() {
                     </ul>
                 </div>
             </section>
-            <div className={styles.footer}>
             <Footer />
-            </div>
         </>
     )
 }

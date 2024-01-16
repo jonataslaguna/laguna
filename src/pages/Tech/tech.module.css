@@ -5,6 +5,7 @@
   justify-content: center;
   padding-top: 30px;
   min-height: 80vh;
+  margin-bottom: 71px;
 }
 
 .container h1 {
@@ -56,10 +57,6 @@
   width: 86px;
 }
 
-.footer {
-  display: none;
-}
-
 @media (max-width: 768px) {
 
   .container h3 {
@@ -72,10 +69,6 @@
   
   .listTech img {
      width: 140px;
-  }
-
-  .footer {
-    display: block;
   }
 }
 
