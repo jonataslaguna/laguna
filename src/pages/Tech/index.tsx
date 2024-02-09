@@ -21,14 +21,6 @@ function Tech() {
                             <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg' alt='TypeScript' />
                         </li>
                         <li>
-                            <p className={styles.name}>Node.js</p>
-                            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg' alt='Node.js'/>
-                        </li>
-                        <li>
-                            <p className={styles.name}>MySQL</p>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt='MySQL'/>      
-                        </li>
-                        <li>
                             <p className={styles.name}>React.js</p>
                             <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' alt='React' />
                         </li>
@@ -45,6 +37,18 @@ function Tech() {
                             <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg' alt='Redux' />
                         </li>
                         <li>
+                            <p className={styles.name}>Testing Library</p>
+                            <img src='/svg/testing-library.svg' alt='React Testing Library' />
+                        </li>
+                        <li>
+                            <p className={styles.name}>Jest</p>
+                            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg' alt='Jest' />
+                        </li>
+                        <li>
+                            <p className={styles.name}>Mocha</p>
+                            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg' />
+                        </li>
+                        <li>
                             <p className={styles.name}>Git</p>
                             <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' alt='Git' />
                         </li>
@@ -53,16 +57,13 @@ function Tech() {
                             <img src='/svg/gitHub.svg' alt='GitHub' />
                         </li>
                         <li>
-                            <p className={styles.name}>Jest</p>
-                            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg' alt='Jest' />
+                            <p className={styles.name}>Node.js</p>         
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
+          
                         </li>
                         <li>
-                            <p className={styles.name}>Testing Library</p>
-                            <img src='/svg/testing-library.svg' alt='React Testing Library' />
-                        </li>
-                        <li>
-                            <p className={styles.name}>Mocha</p>
-                            <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg' />
+                            <p className={styles.name}>MySQL</p>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt='MySQL'/>      
                         </li>
                         <li>
                             <p className={styles.name}>Docker</p>
