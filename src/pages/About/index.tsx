@@ -14,7 +14,7 @@ function About() {
             </p>
 
             <p>
-              Atualmente, decidi focar e me dedicar exclusivamente a isso, que é, o que realmente nasci para fazer. Estou focado no estudo de desenvolvimento web full stack na <a href='https://www.betrybe.com/' target='_blank'>Trybe</a>. Concluí minha formação em front-end e back-end, agora estou imerso no estudo aprofundado da ciência da computação, enquanto continuo a aprimorar minhas habilidades já adquiridas. Aqui, você encontrará alguns dos meus projetos que representam minha jornada de aprendizado e meu compromisso com o aprimoramento constante.
+              Atualmente, decidi focar e me dedicar exclusivamente a isso, que é, o que realmente nasci para fazer. Estou focado no estudo de desenvolvimento web full stack na <a href='https://www.betrybe.com/' target='_blank'>Trybe</a>. Concluí minha formação em front-end, back-end, e ciência da computação, agora estou imerso no estudo aprofundado da linguagem Java, enquanto continuo a aprimorar minhas habilidades já adquiridas. Aqui, você encontrará alguns dos meus projetos que representam minha jornada de aprendizado e meu compromisso com o aprimoramento constante.
             </p>
 
             <p>
